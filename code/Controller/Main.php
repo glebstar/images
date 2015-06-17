@@ -54,8 +54,4 @@ class Controller_Main extends Controller {
         echo json_encode($value);
         exit;
     }
-
-    public function tmpAction() {
-        
-    }
 }
