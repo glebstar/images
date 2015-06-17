@@ -8,7 +8,7 @@ $mainCfg = array(
         'password'  => 'images'
     ),
     'error_level'     => E_ALL,
-    'display_errors'  => 'On',
+    'display_errors'  => 'Off',
     'script_version'  => 4
 );
 
