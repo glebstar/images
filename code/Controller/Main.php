@@ -24,7 +24,7 @@ class Controller_Main extends Controller {
             $this->_echoJson($data);
         }
         
-        $file = file($_FILES['uploads']['tmp_name']);
+        $file = file($_FILES['uploads']['tmp_name'][0]);
         if (!$file) {
             $data['status'] = false;
             $data['error'] = 'Не удалось прочитать файл';

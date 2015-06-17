@@ -26,7 +26,7 @@ function addImages() {
 
     for (i = 0; i < images.length; i++) {
         if (comwidth < imwidth) {
-            comwidth += images[i][1] + 8;
+            comwidth += parseInt(images[i][1]) + 8;
             _imgs.push(images[i]);
             if (i == images.length - 1) {
                 imgFill(imwidth, comwidth, _imgs);
@@ -49,7 +49,7 @@ function imgFill(imwidth, comwidth, _imgs)
     }
     $.each(_imgs, function () {
         var _w = this[1] - _correct;
-        $('#images').append('<div class="prev" style="width: ' + _w + 'px;"><img src="./img/' + this[0] + '" style="margin-left: -' + _correct / 2 + 'px;" /></div>');
+        $('#images').append('<div class="prev" style="width: ' + _w + 'px;"><img src="./images/' + this[0] + '" style="margin-left: -' + _correct / 2 + 'px;" /></div>');
     });
 }
 

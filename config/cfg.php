@@ -9,6 +9,6 @@ $mainCfg = array(
     ),
     'error_level'     => E_ALL,
     'display_errors'  => 'On',
-    'script_version'  => 2
+    'script_version'  => 4
 );
 
