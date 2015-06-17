@@ -1,0 +1,27 @@
+
+
+.container {
+    width: auto;
+    max-width: 680px;
+}
+.container .credit {
+    margin: 20px 0;
+}
+
+#images {
+    clear: both;
+    display: block;
+    margin: 20px 20px 0 20px;
+}
+
+.prev {
+    height: 200px;
+    overflow: hidden;
+    margin: 0 0 8px 8px;
+    float: left;
+}
+
+.prev img {
+    height: 200px;
+    max-width: none;
+}
